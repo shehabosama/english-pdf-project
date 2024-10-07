@@ -16,6 +16,19 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs {
+        create("release") {
+            file("../buildsystem/key_store.jks")
+            storePassword = "Sh01202991861()=>{};"
+            keyAlias = "english_pdf"
+            keyPassword = "Sh01202991861()=>{};"
+            storeFile = file("../buildsystem/key_store.jks")
+            enableV1Signing = false
+            enableV2Signing = false
+            enableV3Signing  = true
+            enableV4Signing  = true
+        }
+    }
     buildTypes {
         release {
             isMinifyEnabled = false
