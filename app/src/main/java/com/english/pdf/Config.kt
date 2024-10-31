@@ -140,7 +140,7 @@ object Config {
         const val VERSION_CODE = 600181
         const val MULTIDEX_ENABLED = true
 
-        const val VERSION_NAME = "'10.1.5'"
+        const val VERSION_NAME = "10.1.5"
         const val SUPPORT_INTERNAL_USER = false
 
         const val SECURE_PREF_VERSION = "\"1\""
