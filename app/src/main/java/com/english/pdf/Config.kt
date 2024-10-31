@@ -137,7 +137,7 @@ object Config {
         const val BUILD_TOOLS_VERSION = "35.0.0"
         const val MAX_SDK_VERSION = 34
         const val TARGET_SDK_VERSION = 35
-        const val VERSION_CODE = 600177
+        const val VERSION_CODE = 600178
         const val MULTIDEX_ENABLED = true
 
         const val VERSION_NAME = "10.1.4"
